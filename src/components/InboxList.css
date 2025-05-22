@@ -1,0 +1,54 @@
+.inbox-item {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.inbox-item:hover {
+  background-color: #f9f9f9;
+}
+
+.inbox-item.active {
+  background-color: #e7f0fe;
+  border-left: 4px solid #0066ff;
+}
+
+.avatar-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.unread-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+}
+
+.btn.active {
+  box-shadow: inset 0 0 0 1px #0d6efd;
+}
+
+.inbox-item.compact .avatar-circle {
+  width: 24px;
+  height: 24px;
+  font-size: 0.7rem;
+}
+
+.inbox-item.compact strong {
+  font-size: 0.85rem;
+}
+
+.inbox-item.compact small {
+  font-size: 0.7rem;
+}
