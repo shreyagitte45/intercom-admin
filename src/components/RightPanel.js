@@ -146,7 +146,7 @@ export default function RightPanel({ onToggle, onAddToComposer, setIsDetailsActi
                   </li>
                 ))}
               </ul>
-              <a href="#" className="small">See all →</a>
+              <a className="small">See all →</a>
             </div>
           )}
 
